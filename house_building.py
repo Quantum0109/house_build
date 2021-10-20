@@ -2,9 +2,16 @@ import turtle as t
 
 def build_house(base_x = -500, base_y = -500, base_width = 100, base_height = 10, base_fill = "#990000", walls_width = 0, walls_height = 0, walls_fill = "#000000", roof_width = 0, roof_height = 0, roof_fill = "#000000"):
     """
+        TODO:
+            определить функцию рисования двери 
+        door_x
+        door_y
+        door_width
+        door_height
+        door_fill
+
         base_x - x левого нижнего угла фундамента
         base_y - y левого нижнего угла фундамента
-
         base_width - ширина фундамента 
         base_height - высота фундамента 
         base_fill - цвет заливки фундамента
@@ -21,7 +28,7 @@ def build_house(base_x = -500, base_y = -500, base_width = 100, base_height = 10
         roof_height - спрашиваем у заказчика
         roof_fill - спрашиваем у заказчика
     """
-    t.speed(0)
+    t.speed(1)
 
     #считаем автоматически величины
     walls_x = base_x
